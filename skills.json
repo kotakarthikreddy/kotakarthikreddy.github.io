@@ -4,6 +4,74 @@
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
     },
     {
+        "name": "TensorFlow",
+        "icon": "https://img.icons8.com/color/48/000000/tensorflow.png"
+    },
+    {
+        "name": "PyTorch",
+        "icon": "https://img.icons8.com/fluency/48/000000/pytorch.png"
+    },
+    {
+        "name": "LangChain",
+        "icon": "https://img.icons8.com/fluency/48/000000/link.png"
+    },
+    {
+        "name": "OpenAI API",
+        "icon": "https://img.icons8.com/ios-filled/48/000000/artificial-intelligence.png"
+    },
+    {
+        "name": "AWS",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/color/48/000000/docker.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
+    },
+    {
+        "name": "FastAPI",
+        "icon": "https://img.icons8.com/color/48/000000/api-settings.png"
+    },
+    {
+        "name": "Git",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
+    },
+    {
+        "name": "Keras",
+        "icon": "https://img.icons8.com/color/48/000000/keras.png"
+    },
+    {
+        "name": "scikit-learn",
+        "icon": "https://img.icons8.com/external-soft-fill-juicy-fish/48/000000/external-machine-learning-artificial-intelligence-soft-fill-soft-fill-juicy-fish.png"
+    },
+    {
+        "name": "Hugging Face",
+        "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/color/48/000000/pandas.png"
+    },
+    {
+        "name": "NumPy",
+        "icon": "https://img.icons8.com/color/48/000000/numpy.png"
+    },
+    {
+        "name": "Terraform",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-terraform-automates-the-coding-of-infrastructure-logo-color-tal-revivo.png"
+    },
+    {
         "name": "Java",
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
@@ -16,56 +84,8 @@
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
     },
     {
-        "name": "Bash",
-        "icon": "https://img.icons8.com/plasticine/48/000000/console.png"
-    },
-    {
-        "name": "scikit-learn",
-        "icon": "https://img.icons8.com/external-soft-fill-juicy-fish/48/000000/external-machine-learning-artificial-intelligence-soft-fill-soft-fill-juicy-fish.png"
-    },
-    {
-        "name": "TensorFlow",
-        "icon": "https://img.icons8.com/color/48/000000/tensorflow.png"
-    },
-    {
-        "name": "Keras",
-        "icon": "https://img.icons8.com/color/48/000000/keras.png"
-    },
-    {
-        "name": "PyTorch",
-        "icon": "https://img.icons8.com/fluency/48/000000/pytorch.png"
-    },
-    {
-        "name": "OpenAI API",
-        "icon": "https://img.icons8.com/ios-filled/48/000000/artificial-intelligence.png"
-    },
-    {
-        "name": "Hugging Face",
-        "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
-    },
-    {
-        "name": "LangChain",
-        "icon": "https://img.icons8.com/fluency/48/000000/link.png"
-    },
-    {
         "name": "SQL",
         "icon": "https://img.icons8.com/color/48/000000/sql.png"
-    },
-    {
-        "name": "NoSQL",
-        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/48/000000/external-nosql-big-data-flaticons-lineal-color-flat-icons.png"
-    },
-    {
-        "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-    },
-    {
-        "name": "PostgreSQL",
-        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
-    },
-    {
-        "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
     },
     {
         "name": "DynamoDB",
@@ -76,60 +96,15 @@
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-apache-cassandra-a-free-and-open-source-distributed-nosql-database-management-system-logo-color-tal-revivo.png"
     },
     {
-        "name": "AWS",
-        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
-    },
-    {
-        "name": "Docker",
-        "icon": "https://img.icons8.com/color/48/000000/docker.png"
-    },
-    {
-        "name": "FastAPI",
-        "icon": "https://img.icons8.com/color/48/000000/api-settings.png"
-    },
-    {
         "name": "GitHub Actions",
         "icon": "https://img.icons8.com/color/48/000000/github.png"
-    },
-    {
-        "name": "Terraform",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-terraform-automates-the-coding-of-infrastructure-logo-color-tal-revivo.png"
-    },
-    {
-        "name": "Pandas",
-        "icon": "https://img.icons8.com/color/48/000000/pandas.png"
-    },
-    {
-        "name": "NumPy",
-        "icon": "https://img.icons8.com/color/48/000000/numpy.png"
     },
     {
         "name": "Matplotlib",
         "icon": "https://img.icons8.com/color/48/000000/combo-chart--v1.png"
     },
     {
-        "name": "Seaborn",
-        "icon": "https://img.icons8.com/color/48/000000/bar-chart.png"
-    },
-    {
-        "name": "SciPy",
-        "icon": "https://img.icons8.com/ios-filled/48/000000/physics.png"
-    },
-    {
-        "name": "Git",
-        "icon": "https://img.icons8.com/color/48/000000/git.png"
-    },
-    {
-        "name": "JSON",
-        "icon": "https://img.icons8.com/color/48/000000/json--v1.png"
-    },
-    
-    {
         "name": "Blockchain",
         "icon": "https://img.icons8.com/color/48/000000/blockchain.png"
-    },
-    {
-        "name": "HIPAA",
-        "icon": "https://img.icons8.com/color/48/000000/security-checked.png"
     }
 ]

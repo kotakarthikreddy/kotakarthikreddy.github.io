@@ -1,0 +1,142 @@
+[
+  {
+    "name": "LLM-Sentiment-Analysis",
+    "desc": "Helps to automate the analysis of customer feedback using Large Language Models.",
+    "image": "https://loremflickr.com/600/400/robot,reading?lock=101",
+    "category": "ai_solutions",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/LLM-Sentiment-Analysis",
+      "code": "https://github.com/kotakarthikreddy/LLM-Sentiment-Analysis"
+    }
+  },
+  {
+    "name": "RAG_LEARN",
+    "desc": "Exploring Retrieval-Augmented Generation (RAG) techniques.",
+    "image": "https://loremflickr.com/600/400/library,digital?lock=102",
+    "category": "ai_solutions",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/RAG_LEARN",
+      "code": "https://github.com/kotakarthikreddy/RAG_LEARN"
+    }
+  },
+  {
+    "name": "Transfer-Learning",
+    "desc": "Implementation of Resnet, Transfer Learning, and Edge Detection.",
+    "image": "https://loremflickr.com/600/400/brain,connection?lock=103",
+    "category": "ai_solutions",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/Transfer-Learning",
+      "code": "https://github.com/kotakarthikreddy/Transfer-Learning"
+    }
+  },
+  {
+    "name": "Basics-of-Computer-Vision",
+    "desc": "Demonstrations of computer vision concepts using the cv2 library.",
+    "image": "https://loremflickr.com/600/400/camera,lens?lock=104",
+    "category": "ai_solutions",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/Basics-of-Computer-Vision",
+      "code": "https://github.com/kotakarthikreddy/Basics-of-Computer-Vision"
+    }
+  },
+  {
+    "name": "ML_Income_Prediction",
+    "desc": "Machine Learning model to predict income based on census data.",
+    "image": "https://loremflickr.com/600/400/graph,money?lock=105",
+    "category": "data_intel",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/ML_Income_Prediction",
+      "code": "https://github.com/kotakarthikreddy/ML_Income_Prediction"
+    }
+  },
+  {
+    "name": "Telecom_Churn",
+    "desc": "Predicting telecom customer churn using machine learning.",
+    "image": "https://loremflickr.com/600/400/phone,signal?lock=106",
+    "category": "data_intel",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/Telecom_Churn",
+      "code": "https://github.com/kotakarthikreddy/Telecom_Churn"
+    }
+  },
+  {
+    "name": "Deep-Learning-on-Structured-Datasets",
+    "desc": "Implementing deep learning classification algorithms using Keras on structured data.",
+    "image": "https://loremflickr.com/600/400/data,matrix?lock=107",
+    "category": "data_intel",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/Deep-Learning-on-Structured-Datasets",
+      "code": "https://github.com/kotakarthikreddy/Deep-Learning-on-Structured-Datasets"
+    }
+  },
+  {
+    "name": "Amazon-Web-Scrapper",
+    "desc": "A tool to scrape product reviews from Amazon and save them to a file.",
+    "image": "https://loremflickr.com/600/400/shopping,online?lock=108",
+    "category": "dev_tools",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/Amazon-Web-Scrapper",
+      "code": "https://github.com/kotakarthikreddy/Amazon-Web-Scrapper"
+    }
+  },
+  {
+    "name": "kotakarthikreddy.github.io",
+    "desc": "My personal portfolio website.",
+    "image": "https://loremflickr.com/600/400/portfolio,design?lock=109",
+    "category": "web_eng",
+    "links": {
+      "view": "https://kotakarthikreddy.github.io/",
+      "code": "https://github.com/kotakarthikreddy/kotakarthikreddy.github.io"
+    }
+  },
+  {
+    "name": "Virtual-Internship",
+    "desc": "Project completed during a virtual internship.",
+    "image": "https://loremflickr.com/600/400/laptop,coffee?lock=110",
+    "category": "web_eng",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/Virtual-Internship",
+      "code": "https://github.com/kotakarthikreddy/Virtual-Internship"
+    }
+  },
+  {
+    "name": "ACM-W_VIT-AP",
+    "desc": "Website for the ACM-W Chapter at VIT-AP.",
+    "image": "https://loremflickr.com/600/400/students,college?lock=111",
+    "category": "web_eng",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/ACM-W_VIT-AP",
+      "code": "https://github.com/kotakarthikreddy/ACM-W_VIT-AP"
+    }
+  },
+  {
+    "name": "VIT-AP-CDC",
+    "desc": "Website for the Career Development Center at VIT-AP.",
+    "image": "https://loremflickr.com/600/400/handshake,job?lock=112",
+    "category": "web_eng",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/VIT-AP-CDC",
+      "code": "https://github.com/kotakarthikreddy/VIT-AP-CDC"
+    }
+  },
+  {
+    "name": "Web-projects",
+    "desc": "A collection of various websites and web projects I have worked on.",
+    "image": "https://loremflickr.com/600/400/code,laptop?lock=999",
+    "category": "web_eng",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/Web-projects",
+      "code": "https://github.com/kotakarthikreddy/Web-projects"
+    }
+  },
+  {
+    "name": "kotakarthikreddy",
+    "desc": "Config files for my GitHub profile.",
+    "image": "https://loremflickr.com/600/400/hacker,terminal?lock=114",
+    "category": "dev_tools",
+    "links": {
+      "view": "https://github.com/kotakarthikreddy/kotakarthikreddy",
+      "code": "https://github.com/kotakarthikreddy/kotakarthikreddy"
+    }
+  }
+]

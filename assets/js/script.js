@@ -37,22 +37,18 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
         emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
 
         emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
             .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
                 alert("Form Submitted Successfully");
             }, function (error) {
-                console.log('FAILED...', error);
                 alert("Form Submission Failed! Try Again");
             });
         event.preventDefault();
     });
-    // <!-- emailjs to mail contact form data -->
 
 });
 
@@ -71,7 +67,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["ML Engineer", "AI/ML Engineer",  "Ai Engineer"],
+    strings: ["ML Engineer", "AI/ML Engineer", "Ai Engineer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -84,7 +80,7 @@ async function fetchData(type = "skills") {
     type === "skills" ?
         response = await fetch("skills.json")
         :
-        response = await fetch("./projects/projects.json")
+        response = await fetch("./projects/data.json")
     const data = await response.json();
     return data;
 }
@@ -92,25 +88,54 @@ async function fetchData(type = "skills") {
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
     let skillHTML = "";
-    skills.forEach(skill => {
+    const visibleCount = 12;
+
+    skills.forEach((skill, index) => {
+        const hiddenClass = index >= visibleCount ? "hidden-skill" : "";
         skillHTML += `
-        <div class="bar">
+        <div class="bar ${hiddenClass}">
               <div class="info">
                 <img src=${skill.icon} alt="skill" />
                 <span>${skill.name}</span>
               </div>
             </div>`
     });
+
+    if (skills.length > visibleCount) {
+        skillHTML += `
+        <div class="see-more-btn" id="seeMoreBtn">
+            <button class="btn" onclick="toggleSkills()">
+                <i class="fas fa-chevron-down"></i> See More
+            </button>
+        </div>`;
+    }
+
     skillsContainer.innerHTML = skillHTML;
+}
+
+let skillsExpanded = false;
+function toggleSkills() {
+    const hiddenSkills = document.querySelectorAll('.hidden-skill');
+    const btn = document.querySelector('#seeMoreBtn button');
+    skillsExpanded = !skillsExpanded;
+
+    hiddenSkills.forEach(skill => {
+        skill.style.display = skillsExpanded ? 'flex' : 'none';
+    });
+
+    btn.innerHTML = skillsExpanded
+        ? '<i class="fas fa-chevron-up"></i> See Less'
+        : '<i class="fas fa-chevron-down"></i> See More';
 }
 
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
+        let imgSource = project.image.startsWith('http') ? project.image : `/assets/images/projects/${project.image}.png`;
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="${imgSource}" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
@@ -118,20 +143,17 @@ function showProjects(projects) {
         <div class="desc">
           <p>${project.desc}</p>
           <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+            <a href="${project.links.code}" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
           </div>
         </div>
       </div>
-    </div>`
+    </div > `
     });
     projectsContainer.innerHTML = projectHTML;
 
-    // <!-- tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
         max: 15,
     });
-    // <!-- tilt js effect ends -->
 
     /* ===== SCROLL REVEAL ANIMATION ===== */
     const srtop = ScrollReveal({
@@ -154,22 +176,11 @@ fetchData("projects").then(data => {
     showProjects(data);
 });
 
-// <!-- tilt js effect starts -->
+
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
 });
-// <!-- tilt js effect ends -->
 
-
-// pre loader start
-// function loader() {
-//     document.querySelector('.loader-container').classList.add('fade-out');
-// }
-// function fadeOut() {
-//     setInterval(loader, 500);
-// }
-// window.onload = fadeOut;
-// pre loader end
 
 // disable developer mode
 document.onkeydown = function (e) {
@@ -242,9 +253,6 @@ srtop.reveal('.education .box', { interval: 200 });
 /* SCROLL PROJECTS */
 srtop.reveal('.work .box', { interval: 200 });
 
-/* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline', { delay: 400 });
-srtop.reveal('.experience .timeline .container', { interval: 400 });
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
