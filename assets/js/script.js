@@ -38,16 +38,25 @@ $(document).ready(function () {
     });
 
     $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
-
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                alert("Form Submission Failed! Try Again");
-            });
         event.preventDefault();
+        
+        var name = $("input[name='name']").val();
+        var email = $("input[name='email']").val();
+        var phone = $("input[name='phone']").val();
+        var message = $("textarea[name='message']").val();
+        
+        var subject = encodeURIComponent("Portfolio Contact from " + name);
+        var body = encodeURIComponent(
+            "Name: " + name + "\n" +
+            "Email: " + email + "\n" +
+            "Phone: " + (phone || "N/A") + "\n\n" +
+            "Message:\n" + message
+        );
+        
+        window.location.href = "mailto:kotakarthik.ai@gmail.com?subject=" + subject + "&body=" + body;
+        
+        document.getElementById("contact-form").reset();
+        alert("Opening your email client to send the message!");
     });
 
 });
