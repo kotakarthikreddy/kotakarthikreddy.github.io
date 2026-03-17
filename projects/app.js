@@ -20,7 +20,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Karthik Kumar Reddy Kota";
+            document.title = "Projects | Portfolio Karthik Kota";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {

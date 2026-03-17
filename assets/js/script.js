@@ -64,7 +64,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Karthik Kumar Reddy Kota";
+            document.title = "Portfolio | Karthik Kota";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -76,7 +76,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["ML Engineer", "AI/ML Engineer", "Ai Engineer"],
+    strings: ["AI Engineer", "ML Engineer", "GenAI & LLM Applications"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,

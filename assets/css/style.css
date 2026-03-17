@@ -748,6 +748,21 @@ header .navbar ul li a:hover {
 /* education media queries ends*/
 /* education section ends */
 
+/* certifications specific image tweaks */
+#certifications .box-container .box .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  background: #fcfcfc;
+}
+
+#certifications .box-container .box img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
 /* work section starts */
 .work {
   /* background: #010124; */

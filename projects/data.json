@@ -1,5 +1,35 @@
 [
   {
+    "name": "Enterprise Financial Fraud Intelligence Platform",
+    "desc": "Built RAG fraud system integrating BERT embeddings with FAISS + Pinecone across 1M+ daily transactions; FastAPI on AWS EC2 at 95ms latency, 99.95% uptime — saved $1.2M annually. Reduced false positive fraud alerts 24% with XGBoost classifiers and MLflow model registry.",
+    "image": "https://loremflickr.com/600/400/finance,security?lock=201",
+    "category": "ai_solutions",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "AI-Powered Enterprise Knowledge Copilot",
+    "desc": "Architected multi-tenant GenAI copilot over 2M+ enterprise documents for 5K+ concurrent users; FastAPI on AWS EC2 at sub-150ms latency. Automated Spark/S3 ingestion slashing knowledge base refresh from 8 hours to 20 minutes; LangChain agents cut human lookup time 70%.",
+    "image": "https://loremflickr.com/600/400/ai,chatbot?lock=202",
+    "category": "ai_solutions",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "IoT Predictive Maintenance & Financial Forecasting",
+    "desc": "Deployed predictive maintenance models on IoT sensor data (PyTorch + Spark Streaming + Kafka) to GCP Vertex AI — reduced equipment downtime 18%. Implemented financial time-series forecasting with ARIMA, Prophet, XGBoost, and LightGBM with TensorRT-optimized sub-50ms predictions.",
+    "image": "https://loremflickr.com/600/400/factory,iot?lock=203",
+    "category": "ai_solutions",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
     "name": "LLM-Sentiment-Analysis",
     "desc": "Helps to automate the analysis of customer feedback using Large Language Models.",
     "image": "https://loremflickr.com/600/400/robot,reading?lock=101",
