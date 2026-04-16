@@ -1,8 +1,18 @@
 [
   {
-    "name": "Enterprise Financial Fraud Intelligence Platform",
-    "desc": "Built RAG fraud system integrating BERT embeddings with FAISS + Pinecone across 1M+ daily transactions; FastAPI on AWS EC2 at 95ms latency, 99.95% uptime — saved $1.2M annually. Reduced false positive fraud alerts 24% with XGBoost classifiers and MLflow model registry.",
+    "name": "Fraud Detection with RAG Pipelines",
+    "desc": "Developed a RAG system integrating BERT embeddings with FAISS and Pinecone to detect anomalous transaction patterns across 500K+ daily financial records. Reduced false positive fraud alerts by 24% with domain-specific XGBoost classifiers. Deployed on AWS SageMaker with Docker for real-time inference.",
     "image": "https://loremflickr.com/600/400/finance,security?lock=201",
+    "category": "ai_solutions",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Computer Vision for Smart Surveillance",
+    "desc": "Real-time vision pipeline using YOLO and Detectron2 to detect intrusions, unattended objects, and abnormal activities — improving detection accuracy by 20%. Applied TensorFlow transfer learning on diverse video datasets and integrated multi-camera stream processing with OpenCV. Deployed via Flask APIs with GPU-accelerated Docker containers.",
+    "image": "https://loremflickr.com/600/400/surveillance,camera?lock=205",
     "category": "ai_solutions",
     "links": {
       "view": "#",

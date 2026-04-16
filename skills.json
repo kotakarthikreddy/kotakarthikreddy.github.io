@@ -166,5 +166,17 @@
     {
         "name": "Claude API",
         "icon": "https://img.icons8.com/ios-filled/48/000000/artificial-intelligence.png"
+    },
+    {
+        "name": "Kubernetes",
+        "icon": "https://img.icons8.com/color/48/000000/kubernetes.png"
+    },
+    {
+        "name": "Bash",
+        "icon": "https://img.icons8.com/plasticine/48/000000/bash.png"
+    },
+    {
+        "name": "Detectron2",
+        "icon": "https://img.icons8.com/color/48/000000/visible.png"
     }
 ]
