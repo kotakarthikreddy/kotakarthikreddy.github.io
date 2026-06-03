@@ -1,47 +1,7 @@
 [
   {
-    "name": "Fraud Detection with RAG Pipelines",
-    "desc": "Developed a RAG system integrating BERT embeddings with FAISS and Pinecone to detect anomalous transaction patterns across 500K+ daily financial records. Reduced false positive fraud alerts by 24% with domain-specific XGBoost classifiers. Deployed on AWS SageMaker with Docker for real-time inference.",
-    "image": "https://loremflickr.com/600/400/finance,security?lock=201",
-    "category": "ai_solutions",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Computer Vision for Smart Surveillance",
-    "desc": "Real-time vision pipeline using YOLO and Detectron2 to detect intrusions, unattended objects, and abnormal activities — improving detection accuracy by 20%. Applied TensorFlow transfer learning on diverse video datasets and integrated multi-camera stream processing with OpenCV. Deployed via Flask APIs with GPU-accelerated Docker containers.",
-    "image": "https://loremflickr.com/600/400/surveillance,camera?lock=205",
-    "category": "ai_solutions",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "AI-Powered Enterprise Knowledge Copilot",
-    "desc": "Architected multi-tenant GenAI copilot over 2M+ enterprise documents for 5K+ concurrent users; FastAPI on AWS EC2 at sub-150ms latency. Automated Spark/S3 ingestion slashing knowledge base refresh from 8 hours to 20 minutes; LangChain agents cut human lookup time 70%.",
-    "image": "https://loremflickr.com/600/400/ai,chatbot?lock=202",
-    "category": "ai_solutions",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "IoT Predictive Maintenance & Financial Forecasting",
-    "desc": "Deployed predictive maintenance models on IoT sensor data (PyTorch + Spark Streaming + Kafka) to GCP Vertex AI — reduced equipment downtime 18%. Implemented financial time-series forecasting with ARIMA, Prophet, XGBoost, and LightGBM with TensorRT-optimized sub-50ms predictions.",
-    "image": "https://loremflickr.com/600/400/factory,iot?lock=203",
-    "category": "ai_solutions",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
     "name": "LLM-Sentiment-Analysis",
-    "desc": "Helps to automate the analysis of customer feedback using Large Language Models.",
+    "desc": "Automates the analysis of customer feedback using Large Language Models — processes text at scale to classify sentiment and surface actionable insights.",
     "image": "https://loremflickr.com/600/400/robot,reading?lock=101",
     "category": "ai_solutions",
     "links": {
@@ -51,7 +11,7 @@
   },
   {
     "name": "RAG_LEARN",
-    "desc": "Exploring Retrieval-Augmented Generation (RAG) techniques.",
+    "desc": "Hands-on exploration of Retrieval-Augmented Generation (RAG) techniques — covers vector stores, embeddings, and LangChain pipelines for knowledge-grounded LLM responses.",
     "image": "https://loremflickr.com/600/400/library,digital?lock=102",
     "category": "ai_solutions",
     "links": {
@@ -61,7 +21,7 @@
   },
   {
     "name": "Transfer-Learning",
-    "desc": "Implementation of Resnet, Transfer Learning, and Edge Detection.",
+    "desc": "Implementation of ResNet, Transfer Learning, and Edge Detection using TensorFlow and PyTorch — demonstrates fine-tuning pretrained models for custom image classification tasks.",
     "image": "https://loremflickr.com/600/400/brain,connection?lock=103",
     "category": "ai_solutions",
     "links": {
@@ -71,7 +31,7 @@
   },
   {
     "name": "Basics-of-Computer-Vision",
-    "desc": "Demonstrations of computer vision concepts using the cv2 library.",
+    "desc": "Demonstrations of core computer vision concepts using the OpenCV (cv2) library — includes image processing, contour detection, morphological operations, and feature extraction.",
     "image": "https://loremflickr.com/600/400/camera,lens?lock=104",
     "category": "ai_solutions",
     "links": {
@@ -81,7 +41,7 @@
   },
   {
     "name": "ML_Income_Prediction",
-    "desc": "Machine Learning model to predict income based on census data.",
+    "desc": "Machine Learning model to predict income based on census data — applies classification algorithms including logistic regression, random forest, and XGBoost with full EDA.",
     "image": "https://loremflickr.com/600/400/graph,money?lock=105",
     "category": "data_intel",
     "links": {
@@ -91,7 +51,7 @@
   },
   {
     "name": "Telecom_Churn",
-    "desc": "Predicting telecom customer churn using machine learning.",
+    "desc": "Predicts telecom customer churn using machine learning — features end-to-end pipeline with feature engineering, model selection, and interpretability analysis.",
     "image": "https://loremflickr.com/600/400/phone,signal?lock=106",
     "category": "data_intel",
     "links": {
@@ -101,7 +61,7 @@
   },
   {
     "name": "Deep-Learning-on-Structured-Datasets",
-    "desc": "Implementing deep learning classification algorithms using Keras on structured data.",
+    "desc": "Implements deep learning classification algorithms using Keras on structured/tabular data — covers batch normalization, dropout regularization, and hyperparameter tuning.",
     "image": "https://loremflickr.com/600/400/data,matrix?lock=107",
     "category": "data_intel",
     "links": {
@@ -111,7 +71,7 @@
   },
   {
     "name": "Amazon-Web-Scrapper",
-    "desc": "A tool to scrape product reviews from Amazon and save them to a file.",
+    "desc": "A Python tool to scrape product reviews from Amazon and save them to a file — uses BeautifulSoup and Requests for structured data extraction and export.",
     "image": "https://loremflickr.com/600/400/shopping,online?lock=108",
     "category": "dev_tools",
     "links": {
@@ -121,7 +81,7 @@
   },
   {
     "name": "kotakarthikreddy.github.io",
-    "desc": "My personal portfolio website.",
+    "desc": "My personal portfolio website — built with HTML, CSS, and JavaScript featuring particle animations, scroll reveal effects, and a responsive design.",
     "image": "https://loremflickr.com/600/400/portfolio,design?lock=109",
     "category": "web_eng",
     "links": {
@@ -131,7 +91,7 @@
   },
   {
     "name": "Virtual-Internship",
-    "desc": "Project completed during a virtual internship.",
+    "desc": "Project completed during a virtual internship — demonstrates applied development skills in a real-world simulation context.",
     "image": "https://loremflickr.com/600/400/laptop,coffee?lock=110",
     "category": "web_eng",
     "links": {
@@ -141,7 +101,7 @@
   },
   {
     "name": "ACM-W_VIT-AP",
-    "desc": "Website for the ACM-W Chapter at VIT-AP.",
+    "desc": "Website for the ACM-W Chapter at VIT-AP — a student community platform highlighting events, achievements, and membership information.",
     "image": "https://loremflickr.com/600/400/students,college?lock=111",
     "category": "web_eng",
     "links": {
@@ -151,7 +111,7 @@
   },
   {
     "name": "VIT-AP-CDC",
-    "desc": "Website for the Career Development Center at VIT-AP.",
+    "desc": "Website for the Career Development Center at VIT-AP — connects students with placement opportunities, resources, and industry partners.",
     "image": "https://loremflickr.com/600/400/handshake,job?lock=112",
     "category": "web_eng",
     "links": {
@@ -161,7 +121,7 @@
   },
   {
     "name": "Web-projects",
-    "desc": "A collection of various websites and web projects I have worked on.",
+    "desc": "A collection of various websites and web projects — showcases front-end development skills across multiple domains and use cases.",
     "image": "https://loremflickr.com/600/400/code,laptop?lock=999",
     "category": "web_eng",
     "links": {
@@ -171,7 +131,7 @@
   },
   {
     "name": "kotakarthikreddy",
-    "desc": "Config files for my GitHub profile.",
+    "desc": "Config files and README for my GitHub profile — crafted to highlight skills, projects, and contact information for visitors.",
     "image": "https://loremflickr.com/600/400/hacker,terminal?lock=114",
     "category": "dev_tools",
     "links": {

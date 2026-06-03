@@ -1034,6 +1034,17 @@ header .navbar ul li a:hover {
   font-size: 1.2rem;
 }
 
+.experience .content .desc p.tech-stack {
+  font-size: 1.05rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.6rem;
+  color: #02094b;
+  font-weight: 600;
+  line-height: 1.8;
+  opacity: 0.85;
+  letter-spacing: 0.02em;
+}
+
 /* view all button */
 .morebtn {
   display: flex;

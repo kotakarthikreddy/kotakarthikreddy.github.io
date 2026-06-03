@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kotakarthikreddy.github.io/sitemap.xml
